@@ -37,7 +37,10 @@ int main() {
 
 
 
-
+// remove duplicate in sorted array
+// three sum problem
+// move zeroes to end
+// 
 
 
 
@@ -52,6 +55,15 @@ int main() {
     
     int i = 0;
     int j = len -1;
+    
+    // char d;
+    // cin >> d;
+    // for(int i = 0;i<len;i++){
+    //     if(str[i] == d){
+    //         str.erase(i);
+    //     }
+    // }
+
 
     while (i<=j)
     {
@@ -59,7 +71,12 @@ int main() {
         i++;
         j--;
     }
-
+     if (orginal == str){
+        cout << "Palindrom " << endl;
+    }
+    else{
+        cout << "Not Palindrom" << endl;
+    }
    
     
   
